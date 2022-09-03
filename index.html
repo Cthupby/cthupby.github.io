@@ -36,13 +36,17 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-		    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        		    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
+        		    <li class="nav-item">
+        		      <a class="nav-link js-scroll-trigger" id="eng" href="#about">Eng</a>
+        		      <a class="nav-link js-scroll-trigger" id="rus" href="#about">Rus</a>
+        		    </li>
                 </ul>
             </div>
         </nav>
         <!-- Page Content-->
         <div class="container-fluid p-0">
-            <!-- About-->
+        <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
@@ -168,3 +172,66 @@
         <script src="js/scripts.js"></script>
     </body>
 </html>
+
+<script>
+const eng = document.querySelector('#eng')
+const rus = document.querySelector('#rus')
+
+const engJson = {
+  "About": {
+    "section": "About",
+    "name": "Sergey",
+    "location": "Rostov-on-Don, Russia",
+    "about": "I'm a software developer living in Rostov-on-Don, Russia. I has previously worked as a building engineer, but became interested in python development.",
+    "focus": "Current focus: Python, Django, Flask, Sanic, PostgreSQL, MySQL, FastAPI, Docker, Nginx, MongoDB, Elasticsearch, Celery, CI/CD",
+  },
+  "Skills": {
+    "section": "Skills",
+    0: "Workflow",
+  },
+  "Education": {
+    "section": "Education",
+    0: "Stepik Academy",
+    1: 'Django, from Zero in practice" course',
+    2: "Russian Southern State University",
+    3: "Bachelor of Architecture",
+  },
+  "Projects": {
+    "section": "Projects",
+  },
+};
+const rusJson = {
+  "About": {
+    "section": "Обо мне",
+    "name": "Сергей",
+    "location": "Ростов-на-Дону, Россия",
+    "about": "Я разработчик программного обеспечения, живу в Ростове-на-Дону. Ранее работал инженером-строителем, но заинтересовался Python разработкой.",
+    "focus": "Интенсивно изучаю: Python, Django, Flask, Sanic, PostgreSQL, MySQL, FastAPI, Docker, Nginx, MongoDB, Elasticsearch, Celery, CI/CD",
+  },
+  "Skills": {
+    "section": "Навыки",
+    0: "Используемые технологии",
+  },
+  "Education": {
+    "section": "Образование",
+    0: "Stepik Academy",
+    1: "Django, с нуля на практике",
+    2: "Южный Федеральный Университет",
+    3: "Бакалавр Архитектуры",
+  },
+  "Projects": {
+    "section": "Проекты",
+  },
+};
+
+eng.addEventListener('click', loadENG)
+rus.addEventListener('click', loadRUS)
+
+function loadENG() {
+  console.log(engJson);
+};
+
+function loadRUS() {
+  console.log(rusJson);
+};
+</script>
