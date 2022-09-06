@@ -5,7 +5,7 @@ const engJson = {
     "section": "About",
     "myname": "Sergey",
     "location": "Rostov-on-Don, Russia",
-    "about": "I'm a software developer living in Rostov-on-Don, Russia. I has previously worked as a building engineer, but became interested in python development.",
+    "about": "I'm a software developer living in Rostov-on-Don, Russia. I has previously worked as a engineer, but became interested in python development.",
     "focus": "Current focus: Python, Django, Flask, Sanic, PostgreSQL, MySQL, FastAPI, Docker, Nginx, MongoDB, Elasticsearch, Celery, CI/CD",
   },
   "skills": {
@@ -21,6 +21,16 @@ const engJson = {
   },
   "projects": {
     "section": "Projects",
+    "decription": [
+      "Application made with FastApi",
+	  "Django Rest Framework Application for xlsx processing",
+	  "Page parser made with Python(Django)",
+	  "Single Page Application made with Python(Django), Vue and PostgreSQL",
+	  "Django application made with Django and Django REST framework",
+	  "Custom registration application made with Django REST framework",
+	  "Telegram bot made with aiogram and pandas that can send words from dictionary on demand",
+      "Study projects from Stepik Academy",
+	  ],
   },
 };
 
@@ -29,8 +39,8 @@ const rusJson = {
     "section": "Обо мне",
     "myname": "Сергей",
     "location": "Ростов-на-Дону, Россия",
-    "about": "Я разработчик программного обеспечения из Ростова-на-Дону. Ранее работал инженером-строителем, но заинтересовался Python разработкой.",
-    "focus": "Интенсивно изучаю: Python, Django, Flask, Sanic, PostgreSQL, MySQL, FastAPI, Docker, Nginx, MongoDB, Elasticsearch, Celery, CI/CD",
+    "about": "Занимаюсь разработкой программного обеспечения. Ранее работал инженером, но заинтересовался веб разработкой с использованием Python.",
+    "focus": "Интенсивно изучаю и практикую: Python, Django, Flask, Sanic, PostgreSQL, MySQL, FastAPI, Docker, Nginx, MongoDB, Elasticsearch, Celery, CI/CD",
   },
   "skills": {
     "section": "Навыки",
@@ -45,6 +55,16 @@ const rusJson = {
   },
   "projects": {
     "section": "Проекты",
+    "decription": [
+      "Приложение, созданное с использованием FastApi",
+	  "Приложение для обработки таблиц формата xlsx, сделанное с использованием Django Rest Framework",
+	  "Парсер страниц, созданный с использованием Python(Django)",
+	  "Одностраничное приложение, сделанное с использованием Python(Django), Vue и PostgreSQL",
+	  "Приложение, сделанное с использованием Django и Django REST framework",
+	  "Приложение сделанное с использованием Django REST framework",
+	  "Телеграм бот, созданный с использованием aiogram и pandas, который отправляет слова из словаря по запросу",
+      "Учебные проекты из Stepik Academy",
+	  ],
   },
 };
 
@@ -66,11 +86,19 @@ function loadLang(lang) {
   // Education section
   document.getElementById('ed').innerHTML = lang.education.section.toString();
   document.getElementById('moreeducation').innerHTML = lang.education.section.toString();
-  document.getElementById('ed-0').innerHTML = lang.education[0].toString();
-  document.getElementById('ed-1').innerHTML = lang.education[1].toString();
-  document.getElementById('ed-2').innerHTML = lang.education[2].toString();
-  document.getElementById('ed-3').innerHTML = lang.education[3].toString();
+  document.getElementById('ed0').innerHTML = lang.education[0].toString();
+  document.getElementById('ed1').innerHTML = lang.education[1].toString();
+  document.getElementById('ed2').innerHTML = lang.education[2].toString();
+  document.getElementById('ed3').innerHTML = lang.education[3].toString();
   // Projects section
   document.getElementById('pr').innerHTML = lang.projects.section.toString();
   document.getElementById('moreprojects').innerHTML = lang.projects.section.toString();
+  document.getElementById('desc0').innerHTML = lang.projects.decription[0].toString();
+  document.getElementById('desc1').innerHTML = lang.projects.decription[1].toString();
+  document.getElementById('desc2').innerHTML = lang.projects.decription[2].toString();
+  document.getElementById('desc3').innerHTML = lang.projects.decription[3].toString();
+  document.getElementById('desc4').innerHTML = lang.projects.decription[4].toString();
+  document.getElementById('desc5').innerHTML = lang.projects.decription[5].toString();
+  document.getElementById('desc6').innerHTML = lang.projects.decription[6].toString();
+  document.getElementById('desc7').innerHTML = lang.projects.decription[7].toString();
 };
