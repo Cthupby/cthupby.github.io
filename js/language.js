@@ -6,7 +6,7 @@ const engJson = {
     "myname": "Sergey",
     "location": "Rostov-on-Don, Russia",
     "about": "I'm a software developer living in Rostov-on-Don, Russia. I has previously worked as a engineer, but became interested in python development.",
-    "focus": "Current focus: Python, Django, Flask, Sanic, PostgreSQL, MySQL, FastAPI, Docker, Nginx, MongoDB, Elasticsearch, Celery, CI/CD",
+    "focus": "Current focus: Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
   },
   "skills": {
     "section": "Skills",
@@ -40,7 +40,7 @@ const rusJson = {
     "myname": "Сергей",
     "location": "Ростов-на-Дону, Россия",
     "about": "Занимаюсь разработкой программного обеспечения. Ранее работал инженером, но заинтересовался веб разработкой с использованием Python.",
-    "focus": "Интенсивно изучаю и практикую: Python, Django, Flask, Sanic, PostgreSQL, MySQL, FastAPI, Docker, Nginx, MongoDB, Elasticsearch, Celery, CI/CD",
+    "focus": "Интенсивно изучаю и практикую: Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
   },
   "skills": {
     "section": "Навыки",
@@ -68,8 +68,8 @@ const rusJson = {
   },
 };
 
-document.querySelector('#eng').onclick = function() {loadLang(engJson)};
-document.querySelector('#rus').onclick = function() {loadLang(rusJson)};
+document.querySelector('#eng').onclick = function() {change_lang('eng')};
+document.querySelector('#rus').onclick = function() {change_lang('rus')};
 
 function loadLang(lang) {
   document.getElementById('myname0').innerHTML = lang.about.myname.toString();
@@ -102,3 +102,19 @@ function loadLang(lang) {
   document.getElementById('desc6').innerHTML = lang.projects.decription[6].toString();
   document.getElementById('desc7').innerHTML = lang.projects.decription[7].toString();
 };
+
+function change_lang(current_lang) {
+  switch(current_lang) {
+    case 'eng':  // if (x === 'value1')
+      loadLang(engJson);
+      break
+    case 'rus':  // if (x === 'value2')
+      loadLang(rusJson);
+      break
+    default:
+      loadLang(engJson);
+      break
+  };
+};
+
+change_lang()
