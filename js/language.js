@@ -5,7 +5,7 @@ const engJson = {
     "section": "About",
     "myname": "Sergey",
     "location": "Rostov-on-Don, Russia",
-    "about": "I'm a software developer living in Rostov-on-Don, Russia. I has previously worked as a engineer, but became interested in python development.",
+    "about": "I'm a software developer living in Russia. I has previously worked as a engineer, but became interested in python development. I like to create modern, fast and technologically advanced web applications, as well as learn new things and solve complex problems.",
     "focus": "Current focus: Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
   },
   "skills": {
@@ -39,7 +39,7 @@ const rusJson = {
     "section": "Обо мне",
     "myname": "Сергей",
     "location": "Ростов-на-Дону, Россия",
-    "about": "Занимаюсь разработкой программного обеспечения. Ранее работал инженером, но заинтересовался веб разработкой с использованием Python.",
+    "about": "Занимаюсь разработкой программного обеспечения. Ранее работал инженером, но заинтересовался веб разработкой с использованием Python. Мне нравится создавать современные быстрые и технологичные веб-приложения, так же узнавать новое и решать сложные задачи.",
     "focus": "Интенсивно изучаю и практикую: Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
   },
   "skills": {
