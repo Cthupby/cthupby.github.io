@@ -5,8 +5,8 @@ const engJson = {
     "section": "About",
     "myname": "Sergey",
     "location": "Rostov-on-Don, Russia",
-    "about": "I'm a software developer living in Russia. I has previously worked as a engineer, but became interested in python development. I like to create modern, fast and technologically advanced web applications, as well as learn new things and solve complex problems.",
-    "focus": "Current focus: Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
+    "about": "I do software development. Previously worked as an engineer but became interested in web development using Python. I like to create modern fast and technologically advanced web applications, as well as learn new things and solve complex problems.",
+    "focus": "Intensive studing and practicing: Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
   },
   "skills": {
     "section": "Skills",
