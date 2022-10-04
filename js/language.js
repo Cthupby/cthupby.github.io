@@ -56,20 +56,20 @@ const rusJson = {
   "projects": {
     "section": "Проекты",
     "decription": [
-      "Приложение, созданное с использованием FastApi",
-	  "Приложение для обработки таблиц формата xlsx, сделанное с использованием Django Rest Framework",
-	  "Парсер страниц, созданный с использованием Python(Django)",
-	  "Одностраничное приложение, сделанное с использованием Python(Django), Vue и PostgreSQL",
-	  "Приложение, сделанное с использованием Django и Django REST framework",
-	  "Приложение сделанное с использованием Django REST framework",
-	  "Телеграм бот, созданный с использованием aiogram и pandas, который отправляет слова из словаря по запросу",
+      "Приложение, созданное с помощью FastApi",
+	  "Приложение для обработки таблиц формата xlsx, созданное с помощью Django Rest Framework",
+	  "Приложение для парсинга страниц, созданное с помощью Python(Django)",
+	  "Одностраничное приложение, созданное с помощью Python(Django), Vue и PostgreSQL",
+	  "Приложение, созданное с помощью Django и Django REST framework",
+	  "Приложение созданное с помощью Django REST framework",
+	  "Телеграм бот, созданный с помощью aiogram и pandas, который отправляет слова из словаря по запросу",
       "Учебные проекты из Stepik Academy",
 	  ],
   },
 };
 
-document.querySelector('#eng').onclick = function() {change_lang('eng')};
-document.querySelector('#rus').onclick = function() {change_lang('rus')};
+document.querySelector('#eng').onclick = function() {changeLang('eng')};
+document.querySelector('#rus').onclick = function() {changeLang('rus')};
 
 function loadLang(lang) {
   document.getElementById('myname0').innerHTML = lang.about.myname.toString();
@@ -103,18 +103,18 @@ function loadLang(lang) {
   document.getElementById('desc7').innerHTML = lang.projects.decription[7].toString();
 };
 
-function change_lang(current_lang) {
+function changeLang(current_lang) {
   switch(current_lang) {
-    case 'eng':  // if (x === 'value1')
+    case 'eng':
       loadLang(engJson);
       break
-    case 'rus':  // if (x === 'value2')
+    case 'rus':
       loadLang(rusJson);
       break
     default:
-      loadLang(engJson);
+      loadLang(rusJson);
       break
   };
 };
 
-change_lang()
+changeLang()
