@@ -6,7 +6,7 @@ const engJson = {
     "myname": "Sergey",
     "location": "Moscow, Russia",
     "about": "I do software development. Previously worked as an engineer but became interested in web development using JavaScript, Python and SQL. I like to create modern fast and technologically advanced web applications, as well as learn new things and solve complex problems.",
-    "focus": "Intensive studing and practicing: JavaScript, Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
+    "focus": "Intensive studing and practicing: Python, JavaScript, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Vue.js, Nuxt.js, Celery, CI/CD",
   },
   "skills": {
     "section": "Skills",
@@ -40,7 +40,7 @@ const rusJson = {
     "myname": "Сергей",
     "location": "Москва, Россия",
     "about": "Занимаюсь разработкой программного обеспечения. Ранее работал инженером, но заинтересовался веб разработкой с использованием JavaScript, Python и SQL. Мне нравится создавать современные быстрые и технологичные веб-приложения, так же узнавать новое и решать сложные задачи.",
-    "focus": "Интенсивно изучаю и практикую: JavaScript, Python, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Celery, CI/CD",
+    "focus": "Интенсивно изучаю и практикую: Python, JavaScript, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Vue.js, Nuxt.js, Celery, CI/CD",
   },
   "skills": {
     "section": "Навыки",
