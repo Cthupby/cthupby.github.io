@@ -5,7 +5,7 @@ const engJson = {
     "section": "About",
     "myname": "Sergey",
     "location": "Moscow, Russia",
-    "about": "I do software development. Previously worked as an engineer but became interested in web development using JavaScript, Python and SQL. I like to create modern fast and technologically advanced web applications, as well as learn new things and solve complex problems.",
+    "about": "I do software development. Previously worked as an engineer but became interested in web development. I mainly use programming languages such as Python and JavaScript. I like to create modern fast and technologically advanced web applications, as well as learn new things and solve complex problems.",
     "focus": "Intensive studing and practicing: Python, JavaScript, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Vue.js, Nuxt.js, Celery, CI/CD",
   },
   "skills": {
@@ -39,7 +39,7 @@ const rusJson = {
     "section": "Обо мне",
     "myname": "Сергей",
     "location": "Москва, Россия",
-    "about": "Занимаюсь разработкой программного обеспечения. Ранее работал инженером, но заинтересовался веб разработкой с использованием JavaScript, Python и SQL. Мне нравится создавать современные быстрые и технологичные веб-приложения, так же узнавать новое и решать сложные задачи.",
+    "about": "Занимаюсь разработкой программного обеспечения. Ранее работал инженером, но заинтересовался веб разработкой. В основном использую такие языки програмирования, как Python и JavaScript. Мне нравится создавать современные быстрые и технологичные веб-приложения, так же узнавать новое и решать сложные задачи.",
     "focus": "Интенсивно изучаю и практикую: Python, JavaScript, Django, Flask, FastAPI, Unittest/Pytest, PostgreSQL/MySQL, Docker, Nginx, MongoDB, Vue.js, Nuxt.js, Celery, CI/CD",
   },
   "skills": {
