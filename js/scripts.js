@@ -7,7 +7,9 @@
 // Scripts
 // 
 
-window.Telegram.WebApp.expand() //expand window after page loading
+let tg = window.Telegram.WebApp;
+
+tg.expand();
 
 window.addEventListener('DOMContentLoaded', event => {
 
