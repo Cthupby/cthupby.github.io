@@ -7,6 +7,8 @@
 // Scripts
 // 
 
+window.Telegram.WebApp.expand() //expand window after page loading
+
 window.addEventListener('DOMContentLoaded', event => {
 
     // Activate Bootstrap scrollspy on the main nav element
